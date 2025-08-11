@@ -6,6 +6,8 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "jupyterlab>=4.4.5",
+    "jupyterlab-rise>=0.43.1",
+    "jupyterlab-vim>=4.1.4",
     "numpy>=2.3.2",
     "pandas>=2.3.1",
     "scikit-learn>=1.7.1",
