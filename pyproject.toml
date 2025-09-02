@@ -3,8 +3,10 @@ name = "redes-neuronales"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
+    "gensim>=4.3.2",
+    "ipywidgets>=8.1.7",
     "jupyter-ruff>=0.3.0",
     "jupyterlab>=4.4.5",
     "jupyterlab-rise>=0.43.1",
@@ -12,8 +14,10 @@ dependencies = [
     "matplotlib>=3.10.5",
     "numpy>=2.3.2",
     "pandas>=2.3.1",
+    "rich>=14.1.0",
     "scikit-learn>=1.7.1",
     "torch>=2.8.0",
+    "tqdm>=4.67.1",
 ]
 
 [[tool.uv.index]]
